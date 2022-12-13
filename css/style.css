@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(133, 3, 255);
+}
+
 .container {
     height: 100vh;
     display: flex;
@@ -13,9 +17,16 @@
 
 .item {
     float: left;
-    width: 700px;
-    height: 300px;
+    width: 900px;
+    height: 600px;
     position: relative;
+}
+
+.item h3{
+    font-size: 2rem;
+}
+.item p{
+    font-size: 1.3rem;
 }
 
 .item img {
@@ -33,14 +44,15 @@
 }
 
 .thumbs {
+    width: 250px;
     float: left;
-    height: 300px;
+    height: 600px;
     background: #000;
     position: relative;
-}
+} 
 
 .thumb {
-    height: calc((300px) / 5);
+    height: calc((100%) / 5 );
     opacity: 0.5;
 }
 
@@ -56,8 +68,8 @@
 }
 
 .prev, .next {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin: 10px 0;
     border-radius: 50%;
     background: #ccc;
