@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: rgb(133, 3, 255);
+    background: rgb(116,15,218);
+background: radial-gradient(circle, rgba(116,15,218,1) 0%, rgba(27,27,27,1) 100%);
 }
 
 .container {
